@@ -6,6 +6,7 @@
 Run from `modules` directory.
 
 `docker build --build-arg ENABLED_MODULES="ndk lua" -t my-nginx-with-lua . `
+`docker build -t my-nginx-with-lua . `
 
  ## Modules to add
 
